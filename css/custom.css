@@ -1,0 +1,160 @@
+/*Header*/
+.navbar-default, .navigation{
+  background-color: transparent !important;
+  border-color: transparent !important;
+  position: absolute !important;
+  width: 100%;
+  z-index: 2;
+}
+.menu-contact__link{
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #33CCFF !important;
+  font-weight: 300 !important;
+}
+.menu-contact__link:hover, .menu-contact__link:active{
+  color: #fff !important;
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+.main-slider__button_bordered{
+  background-color: transparent !important;
+  border: 2px solid #33ccff;
+  color: #33ccff !important;
+}
+.main-slider__button_bordered:hover, .main-slider__button_bordered:active{
+  background-color: #33ccff !important;
+  color: #fff !important;
+}
+
+.navbar-brand{
+  margin: 1em 0 0 1em;
+}
+/*Main lider*/
+.main-slider__button{
+  margin-right: 1em;
+}
+/* Fearutes */
+.feature h2{
+  font-size: 21px;
+  font-weight: 600;
+}
+.feature i span{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+span.money{
+  background: url(../images/icons/ruble.png) no-repeat center;
+}
+span.stopwatch{
+  background: url(../images/icons/stopwatch.png) no-repeat center;
+}
+span.percentage{
+  background: url(../images/icons/percentage.png) no-repeat center;
+}
+span.zero{
+  background: url(../images/icons/zero.png) no-repeat center;
+}
+/*About*/
+.about h2{
+  font-size: 55px;
+  text-transform: uppercase;
+}
+.about h2 span{
+  font-weight: bold;
+  color: #33ccff;
+}
+
+.about h3{
+  font-size: 34px;
+}
+.about h3 a{
+  font-size: 21px;
+  color: #33ccff;
+  position: relative;
+  top: -6px;
+}
+.about .wow p{
+  font-size: 13px !important;
+}
+.about-adv{
+  margin-top: 2em;
+}
+.about-adv span{
+  color: #33ccff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.about-adv__market > span{
+  display: block;
+  margin-top: 3.5rem;
+}
+.about-adv__market span:nth-child(1){
+  font-size: 89px;
+  /*font-style: italic;*/
+}
+.about-adv__market span:nth-child(2){
+  font-size: 55px;
+  letter-spacing: -5px;
+}
+.about-adv__market span:nth-child(3){
+  font-size: 13px;
+  margin-top: 1em;
+}
+.about-adv__multinational > span {
+  display: block;
+  margin-top: 3.5rem;
+}
+.about-adv__multinational span:nth-child(1) span{
+  font-size: 89px;
+}
+.about-adv__multinational span:nth-child(2){
+  font-size: 34px;
+}
+
+/*Partners*/
+#partner h2{
+  font-size: 55px !important;
+  text-transform: uppercase;
+}
+
+/*Lates*/
+.lates h2{
+  font-size: 55px !important;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+.lates h3{
+  font-size: 34px !important;
+  text-transform: uppercase;
+  color: #33ccff !important;
+}
+.lates__text-stress{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*Contact*/
+.contact-info{
+  text-align: right;
+}
+.contact-info h2{
+  font-size: 55px !important;
+  color: #33ccff !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.contact-info p{
+  color: #fff !important;
+  font-size: 34px !important;
+  line-height: 1em;
+}
+
+.contact-info span{
+  color: #33ccff;
+  font-weight: 600;
+  display: block;
+  padding-top: 1em;
+}
