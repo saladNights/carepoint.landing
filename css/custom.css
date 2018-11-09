@@ -1,3 +1,24 @@
+h2{
+  font-size: 4.015vw !important;
+}
+h3{
+  font-size: 2.48vw !important;
+}
+h4{
+  font-size: 1.53vw !important;
+}
+@media(max-width: 767px){
+  h2{
+    font-size: 9.27vw !important;
+  }
+  h3{
+    font-size: 5.72vw !important;
+  }
+  h4{
+    font-size: 3.53vw !important;
+  }
+}
+
 /*Header*/
 .navbar-default, .navigation{
   background-color: transparent !important;
@@ -28,14 +49,14 @@
   background-color: #33ccff !important;
   color: #fff !important;
 }
-
 .navbar-brand{
   margin: 1em 0 0 1em;
 }
+
 /*Main lider*/
 #main-slider .carousel h2{
   color: #fff;
-  font-size: 7vw;
+  font-size: 6.5vw !important;
 }
 #main-slider .animated-item-2{
   text-transform: uppercase;
@@ -55,9 +76,15 @@
     display: block;
     margin-top: 100px !important;
     padding-left: 1em;
+    font-size: 1.3em;
+    text-align: center;
   }
 }
 @media(max-width: 767px){
+  .navbar-brand{
+    float: none;
+    text-align: center;
+  }
   #main-slider .item{
     display: flex !important;
     flex-direction: column;
@@ -65,25 +92,30 @@
     background: url(../images/slider/bg1bw.jpg) no-repeat;
   }
   #main-slider .carousel h2{
+    font-size: 15vw !important;
     color: #33CCFF;
   }
   #main-slider .carousel h2 span {
     color: #fff;
   }
 }
-@media(max-width: 1400px){
-  #main-slider .slide-margin{
-    text-align: right;
-  }
-}
 .main-slider__button{
   margin-right: 1em;
   text-align: center;
 }
+
 /* Fearutes */
 .feature h2{
-  font-size: 21px;
+  font-size: 2.48vw !important;
   font-weight: 600;
+}
+@media(max-width: 767px){
+  .feature h2{
+    font-size: 5.72vw !important;
+  }
+}
+.feature p{
+  color: #fff;
 }
 .feature i span{
   display: block;
@@ -103,25 +135,23 @@ span.percentage{
 span.zero{
   background: url(../images/icons/zero.png) no-repeat center;
 }
-
 .hi-icon-effect i.fa:hover{
   background: #2b2b2b;
 }
+
 /*About*/
 .about h2{
-  font-size: 55px;
   text-transform: uppercase;
 }
 .about h2 span{
   font-weight: bold;
   color: #33ccff;
 }
-
 .about h3{
   font-size: 34px;
 }
 .about h3 a{
-  font-size: 21px;
+  font-size: 15px;
   color: #33ccff;
   position: relative;
   top: -6px;
@@ -153,6 +183,9 @@ span.zero{
   font-size: 13px;
   margin-top: 1em;
 }
+.about-adv__multinational{
+  margin-bottom: 30px;
+}
 .about-adv__multinational > span {
   display: block;
   margin-top: 3.5rem;
@@ -163,16 +196,30 @@ span.zero{
 .about-adv__multinational span:nth-child(2){
   font-size: 34px;
 }
-
+.about-adv__multinational span:last-child{
+  margin-top: 2rem;
+}
 /*Partners*/
+#partner{
+  padding: 100px 10px;
+}
 #partner h2{
-  font-size: 55px !important;
   text-transform: uppercase;
+}
+#partner p{
+  font-size: 1.53vw;
+}
+@media(max-width: 767px){
+  #partner p{
+    font-size: 3.53vw !important;
+  }
 }
 
 /*Lates*/
+.lates{
+  padding: 50px 0;
+}
 .lates h2{
-  font-size: 55px !important;
   text-transform: uppercase;
   color: #fff !important;
 }
@@ -191,17 +238,24 @@ span.zero{
   text-align: right;
 }
 .contact-info h2{
-  font-size: 55px !important;
+  font-size: 6.5vw !important;
   color: #33ccff !important;
   text-transform: uppercase;
   font-weight: 700;
 }
 .contact-info p{
   color: #fff !important;
-  font-size: 34px !important;
+  font-size: 4.015vw !important;
   line-height: 1em;
 }
-
+@media(max-width: 767px){
+  .contact-info h2{
+    font-size: 9.27vw !important;
+  }
+  .contact-info p{
+    font-size: 5.72vw !important;
+  }
+}
 .contact-info span{
   color: #33ccff;
   font-weight: 600;
