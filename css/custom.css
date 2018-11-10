@@ -267,7 +267,7 @@ span.zero{
 .contactForm{
   text-align: center;
 }
-#contact-page h2, p{
+#contact-page h2, #contact-page p{
   color: #fff !important;
 }
 #contact-page .btn-primary {

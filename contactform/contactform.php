@@ -4,7 +4,7 @@ $phone = $_POST['phone'];
 
 $email_from = 'info@carepoint.pro';
 $email_subject = "Новая заявка на обучение в Carepoint.pro";
-$email_body = "Имя: $name\n Телефон: $phone";
+$email_body = "Имя: $name\nТелефон: $phone";
 
 $to = $email_from;
 $headers = "From: $email_from \r\n";
