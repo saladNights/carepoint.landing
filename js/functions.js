@@ -68,4 +68,6 @@ jQuery(function ($) {
     }
     google.maps.event.addDomListener(window, 'load', initialize_google_map);
   }
+
+  $("#phone").mask("+7 (999) 999-9999");
 });

@@ -262,3 +262,18 @@ span.zero{
   display: block;
   padding-top: 1em;
 }
+
+/* Contact */
+.contactForm{
+  text-align: center;
+}
+#contact-page h2, p{
+  color: #fff !important;
+}
+#contact-page .btn-primary {
+  padding: 5px 20px;
+  margin-top: 0;
+}
+.validation{
+  position: absolute;
+}
